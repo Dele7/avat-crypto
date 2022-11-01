@@ -1,0 +1,166 @@
+@media screen and (max-width: 2500px) and (min-width: 2000px), (min-width: 2500px){
+    .container {
+        width: 60%;
+    }
+    .boxes {
+        margin: auto;
+        width: 60%;
+    }
+    .white-section, .dark-section {
+        margin: auto;
+        width: 60%;
+    }
+    .dark-section h2{
+        margin: 5rem 0;
+        color: #000;
+    }
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 80%;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    .logo{
+        width: 20%;
+        margin-bottom: 1rem;
+    }
+    .appstore{
+        width:30%;
+    }
+    .coins{
+        margin: 3rem 0;
+    }
+    .words{
+        width:80%;
+    }
+    .box1{
+        padding: 3rem;    
+    } 
+    .kyc-cont h2{
+        padding: 0px 80px;
+    }     
+} 
+
+@media (max-width: 767px) {
+    .container{
+        width: 90%;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    .appstore{
+        width:40%;
+    }
+    .coins{
+        margin: 2rem 0;
+    }
+    .words{
+        width:90%;
+    }
+    .palette-cont{
+        flex-direction: column;
+        text-align: center;
+    }
+    .palette-cont p{
+        text-align: center;
+        line-height: 1.5;
+    }
+    .palette{
+        padding-right: 0;
+    }
+    .leftside{
+        margin-bottom: 3rem;
+    }
+    .kyc-cont h2{
+        font-size: 1.8rem;
+        padding: 0;
+    }
+    .kyc-cont p:last-of-type{
+        padding: 0;
+    }
+    .security-cont{
+        display: block;
+        text-align: center;
+    } 
+    .security-lock-cont{
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .security-lock{
+        width: 80%;
+    }
+    .security-word-cont h2{
+        font-size: 2rem;
+        padding-right: 0;
+    }
+    .security-word-cont p{
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .comp-cont{
+        padding: 2rem 0;
+    } 
+    .comp-word-cont{
+        width: 100%;
+    }
+    .comp-word-cont p{
+        margin-bottom: 1rem;
+        width: 100%;
+    } 
+    .comp-phone-cont{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .portfolio h2 {
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: center;
+    }
+    .security-cont-1{
+        display: block;
+        text-align: center;
+    }
+    .security-lock-cont-1{
+        width:100%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .security-word-cont-1{
+        width:100%;
+        text-align: center;
+        padding-right: 0;
+    }
+    .security-lock-1 {
+        width: 80%;
+        text-align: center;
+    }
+    .screen-header {
+        margin-bottom: 4rem;
+    }
+    .white-section, .dark-section  {
+        margin-top: 3rem;
+    }
+    .white-section h2, .dark-section h2{
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 575px) {
+    .headercont{
+        display: flex;
+        flex-direction: column;
+    }
+    .appstore{
+        width:30%;
+    }
+    .upbox, .downbox{
+        display: block;
+    }
+    .box2{
+        height: 50vh;
+        background-size: cover;
+    }  
+}

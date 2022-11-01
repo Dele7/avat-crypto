@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+  background-image: url("images/Group\ 1000001885.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  padding: 1rem 0 4rem 0;
+}
+.list{  
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.7rem;
+    margin-bottom: 3rem;
+}
+.logo{
+    width: 10%;
+    margin-bottom: 2rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.headercont{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightside{
+    align-self: flex-end;
+}
+.leftside{
+    color: white;
+    text-align: c;
+}
+.appstore{
+ width:20%;
+}
+.header-img-cont{
+    width: 100%;
+}
+.header-img {
+    width: 100%;
+}
+header h1{
+font-size: 3.5rem;
+margin-bottom: 1.5rem;
+}
+header h2{
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+.coins{
+    margin: 4rem 0;
+}
+.coin-img{
+    width: 100%;
+}
+.overview h1, .overview h2 {
+    margin-bottom: 1rem;
+}
+.words{
+    margin: auto;
+    width:60%;
+    margin-bottom: 5rem;
+}
+.bulletpoint{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: disc;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.words p{
+    line-height: 1.5rem;
+    margin-bottom: 2rem; 
+}
+.upbox{
+    display: flex;
+}
+.box1{
+    background-color: #505399;
+    color: white;
+    flex-basis: 50%;
+    padding: 5rem;    
+}
+.box2{
+    flex-basis: 50%;
+    background-image: url(images/Rectangle\ 3240.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.box3{
+    background-color: #F0F3F6;
+    flex-basis: 50%;
+    text-align: center;
+    padding-top: 1rem;
+}
+.box4{
+    flex-basis: 50%;
+    /* background-image: linear-gradient(to bottom, #282A6E, #4F52B2); */
+}
+.downbox{
+    display: flex;
+}
+.box1 h1{
+    margin-bottom: 2rem;
+}
+.box1 p{
+    line-height: 1.8rem;
+    width: 100%;
+    text-align: justify;
+}
+.avatimg{
+    width: 100%;
+}
+.phones{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.design{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.line-cont{
+    margin: auto;
+}
+.lines {
+    width: 100%;
+}
+
+.plentyboxes{
+    background-image: url(images/Group\ 1000001881.jpg);
+    background-size: cover;
+    padding: 5rem 0;
+    box-sizing: border-box;
+}
+.boxes-cont{
+    width: 100%;
+}
+.threeboxes{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.typo{
+    width: 100%;
+}
+.rectangle{
+    width: 100%;
+}
+.brand{
+   width: 100%; 
+}
+.twoboxes{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 2rem; 
+}
+.boxd{
+    width: 55%;
+}
+.colors{
+    width: 100%;
+}
+.boxe{
+    width: 43%;
+}
+.style{
+    width: 100%;
+}
+.style-2{
+    width: 70%;
+}
+.trustedboxes{
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: space-between; 
+}
+.boxf{
+    width: 60%;
+}
+.world{
+    width: 100%;
+}
+.boxg{
+    width: 40%;
+}
+.send{
+    width: 100%;
+} 
+.palette-cont{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.trade-cont{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.trade{
+    width: 100%;
+}
+.palette-cont h1{
+    color: #8D91FF;
+    font-size: 18px;
+    text-align: justify;
+}
+.palette-cont h2{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.palette-cont p{
+    text-align: justify;
+    line-height: 1.5;
+}
+.color-palette {
+    margin-bottom: 1rem;
+    color: #8D91FF;
+}
+.palette{
+    padding-right: 70px;
+}
+.feature-cont{
+    padding: 3rem 0;
+}
+.kyc-cont{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.wifi-phone-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+.wifi-phone{
+    width: 30%;
+}
+.wifi-phone-1, .wifi-phone-2, .wifi-phone-3{
+    width: 100%;
+}
+
+.security-cont{
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    align-items: center;
+}
+.security-lock-cont{
+    align-self: flex-end;
+    width: 60%;
+}
+.security-lock{
+    width: 100%;
+}
+.feature{
+    color: #5C5FB1;
+    margin-bottom: 1rem;
+}
+.kyc-cont h2{
+    font-size: 2.1rem;
+    padding: 0px 150px;
+    margin-bottom: 1.2rem;
+}
+.kyc-cont p:last-of-type{
+    font-size: 14px;
+    padding: 0px 100px;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+.portfolio h5 {
+    margin-bottom: 1rem;
+    color: #5C5FB1;
+}
+.security-word-cont h2{
+    font-size: 2rem;
+    padding-right: 50px;
+    margin-bottom: 1.2rem;
+}
+.security-word-cont p{
+    font-size: 14px;
+    padding-right: 80px;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.comp-cont{
+    background-image: url(images/Group\ 1000001868.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 0;
+}
+.comp-word-cont{
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.comp-phone-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.comp-phone{
+    width: 22%;
+}
+.comp-phone-1, .comp-phone-2, .comp-phone-3, .comp-phone-4{
+    width: 100%;
+}
+.comp-word-cont h1{
+    color: #8D91FF;
+    font-size: 10px;
+}
+.comp-word-cont h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.comp-word-cont p{
+    margin-bottom: 3rem;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+}
+.security-cont-1{
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    align-items: center;
+}
+.security-lock-cont-1{
+    width:50%;
+}
+.security-lock-1{
+    width: 100%;
+}
+.security-word-cont-1{
+    padding-right: 90px;
+    width:50%;
+}
+.security-word-cont-1 p{
+    margin-bottom: 1.5rem;
+    color: #5C5FB1;
+}
+.security-word-cont-1 p:last-of-type{
+    line-height: 1.5;
+    color: #000000;
+}
+.security-word-cont-1 h2{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.cbw-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5rem;
+}
+.cbw{
+    width: 30%;
+}
+.cbw-img{
+    width: 100%;
+}
+
+.contactz{
+    background-image: url(images/HomeBG.jpg);
+    background-size: cover;
+    padding: 5rem 0;
+}
+.add-cont {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.add-word-cont h2{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.add-word-cont p{
+    margin-bottom: 1.2rem;
+}
+.add-word-cont p:last-of-type{
+    line-height: 1.5;
+}
+.add-img-cont{
+    width: 100%;
+    margin: auto;
+}
+.add-img{
+    width: 100%;
+    margin-top: 3rem;
+}
+.screens-cont {
+    background-image: url(images/Rectangle\ 3279.jpg);
+    padding: 3rem 0 5rem 0;
+}
+.white-section, .dark-section  {
+    margin-top: 6rem;
+    text-align: center;
+    color: #fff;
+}
+.white-section h2{
+    margin-bottom: 5rem;
+}
+.dark-section h2{
+    margin-bottom: 5rem;
+    color: #000;
+}
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+.screen-header a {
+    text-decoration: none;
+    color: #fff;
+}
+.screens {
+    display: flex;
+    justify-content: space-around;
+}
+.screen-1-cont {
+    flex-basis: 18%;
+    /* transform: rotate(-15deg); */
+}
+.screen-1 {
+    width: 100%;
+}
+footer {
+    text-align: center;
+    padding: 3rem 0;
+}
